@@ -1,0 +1,243 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    color: #fff;
+    background: #e74c3c;
+    
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    /* padding-left: 347px; */
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #fff;
+    padding : 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background: #c0392b;
+}
+#banner{
+    background: url(../images/1.jpg)no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.banner-title{
+    margin-top: 5rem;
+}
+.banner-title p.lead{
+    color: #fff;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.fas{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.service-box i.far{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+#testimonials{
+    background: url(../images/4.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: #fff;
+
+}
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    display: inline-block;
+}
+.testimonial{
+    text-align: center;
+    margin: 10px;
+    color: #000;
+    background: rgba(255,255,255,0.6);
+    padding: 20px;
+    line-height: 20px;
+}
+.author{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.author-company{
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+.col-md-12 h2.section-head2{
+    color: #fff;
+    text-align: center;
+}
+.col-md-12 h2.section-head2:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+.testimonial p{
+    padding: 10px;
+}
+.new-post img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.section-head{
+    color: #000;
+    text-align: center;
+    
+    margin-bottom: 40px;
+}
+.new-post h3{
+    font-size: 1.35rem;
+}
+.section-head:after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+.new-post h3 a{
+    text-decoration: none;
+    color: #e74c3c;
+   /* padding: 5px; */
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.new-post p{
+    margin-top: 10px;
+}
+/* .new-post::before{
+    content: "\f073";
+    font-family: FontAwesome;
+} */
+#footer-sidebar{
+    
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4::after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-widget a{
+    color: #fff;
+    text-decoration: none;
+}
+.latest-news{
+    list-style: none;
+   
+    margin: 0;
+    padding: 0;
+}
+.latest-news li{
+    margin-bottom: 5px;
+}
+#footer{
+    color: #fff;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+@media (max-width : 768px){
+    #logo{
+        text-align: center;
+        margin: 10px 0;
+    }
+    #menu{
+        text-align: center;
+
+    }
+    .banner-title{
+        padding-top: 0;
+    }
+    .banner-title h1{
+        font-size: 1.7rem;
+    }
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-widget{
+        margin-bottom: 20px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #social-icons{
+        margin-top: 10px;
+    }
+    .testimonial{
+        margin-bottom: 30px;
+    }
+    .service-box{
+        margin-bottom: 30px;
+    }
+   
+}
+@media(max-width : 992px)
+{
+    .new-post{
+        margin-bottom: 30px;
+    }
+
+
+}
